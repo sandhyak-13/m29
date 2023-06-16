@@ -12,7 +12,9 @@ public abstract class SavingAcc extends BankAcc {
 	
 	public void withdraw(float accbal)
 	{
-		System.out.println(" account no "+this.getAccno());
+		System.out.println("account no "+this.getAccno()+
+				"\naccount name :"+this.getAccnm()+
+				"\naccount blance :"+this.getAccbal());
 		
 	}
 

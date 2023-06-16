@@ -8,14 +8,13 @@ public class client {
 
 	public static  void main(String[] args) {
 	//BankFactory b=new mmbankfactory();
-	SavingAcc p =new mmsavingacc(570,"sandhya khamgal",100,true);
-	CurrentAcc n =new mmcurrentacc(570,"sachin khamgal",50,60);
+	SavingAcc p =new mmsavingacc(570,"sandhya khamgal",1000,true);
+	CurrentAcc n =new mmcurrentacc(800,"sachin khamgal",2000,60);
 	System.out.println("saving acc");
-	p.deposite(p.getAccbal());
+	p.deposite(200);
 	System.out.println("current acc");
-	n.withdraw(n.getAccbal());
-	//System.out.println(p);
-	//System.out.println(n);
+	n.withdraw(200);
+	
 	
 
 	}

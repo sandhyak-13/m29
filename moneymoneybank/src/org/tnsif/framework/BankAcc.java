@@ -57,7 +57,10 @@ public abstract class BankAcc {
 	
 	public void deposite(float accbal)
 	{
-		System.out.println("ammount is "+accbal);
+		System.out.println("account no "+this.getAccno()+
+				"\naccount name :"+this.getAccnm()+
+				"\naccount blance :"+this.getAccbal()+
+				"\nammount is "+(this.accbal+accbal));
 	}
 
 	@Override
